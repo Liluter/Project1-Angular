@@ -16,5 +16,7 @@ ingredients: Ingredient[] = [
 constructor(){
 
 }
-
+  newIngredient(ingredient: Ingredient){
+    this.ingredients.push(ingredient)
+  }
 }
